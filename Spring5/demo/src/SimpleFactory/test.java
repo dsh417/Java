@@ -13,7 +13,7 @@ public class test {
 //          但是方法参数是字符串，可控性需要提升。而且需要强转；
 //        CourseFactory factory=new CourseFactory();
 //        ICourse iCourse=
-//                factory.create("简单工厂.JavaCourse");
+//                factory.create("SimpleFactory.JavaCourse");
 //        iCourse.record();
 
 //        优化代码
