@@ -1,4 +1,4 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
 
 public class LazyDoubleCheckSingleton {
     //双检锁

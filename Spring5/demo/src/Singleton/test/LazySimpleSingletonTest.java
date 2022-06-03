@@ -1,7 +1,6 @@
-package LyzySimpleon.test;
+package Singleton.test;
 
-import LyzySimpleon.EndLazyInnerClassSingleton;
-import LyzySimpleon.ExectorThread;
+import Singleton.LazySingleton.EndLazyInnerClassSingleton;
 
 public class LazySimpleSingletonTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
 
 public class LazyInnerClassSingleton {
     //解决饿懒汉单例模式内存浪费和synchronized性能问题

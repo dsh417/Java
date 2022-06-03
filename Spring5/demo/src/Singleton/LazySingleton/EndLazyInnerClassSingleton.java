@@ -1,4 +1,4 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
 
 //【完结】自认为史上最牛的单例模式的实现方式,运行成功!2022年6月2日18:45:08
 //解决 反射/序列化 破坏单例

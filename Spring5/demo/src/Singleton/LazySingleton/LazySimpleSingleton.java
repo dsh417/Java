@@ -1,4 +1,4 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
 
 public class LazySimpleSingleton {
     private LazySimpleSingleton(){}

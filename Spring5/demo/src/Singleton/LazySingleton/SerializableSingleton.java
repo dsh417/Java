@@ -1,4 +1,4 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
 
 import java.io.Serial;
 import java.io.Serializable;

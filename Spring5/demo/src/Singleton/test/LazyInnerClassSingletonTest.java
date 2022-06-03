@@ -1,7 +1,6 @@
-package LyzySimpleon.test;
+package Singleton.test;
 
-import LyzySimpleon.EndLazyInnerClassSingleton;
-import LyzySimpleon.LazyInnerClassSingleton;
+import Singleton.LazySingleton.EndLazyInnerClassSingleton;
 
 import java.lang.reflect.Constructor;
 

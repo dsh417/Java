@@ -1,4 +1,6 @@
-package LyzySimpleon;
+package Singleton.LazySingleton;
+
+import Singleton.LazySingleton.LazyDoubleCheckSingleton;
 
 public class ExectorThread implements Runnable{
 
