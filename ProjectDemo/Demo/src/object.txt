@@ -1,0 +1,4 @@
+transaction=transaction.impl.TransactionManagerImpl
+userService=service.impl.UserServiceImpl
+userServiceTarget=service.proxy.UserServiceProxy
+userDao=dao.impl.UserDaoImpl

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>段书恒的学习路2021年11月10日20:19:09</title>
+</head>
+<style>
+    .Test01{
+        width: 800px;
+        height:1500px;
+        background-color:#C4C3CB;
+        padding: 0 0 0 0;
+        border-radius: 10px;
+        margin: auto;
+    }
+    .Test02{
+        width: 100%;
+        height:100px;
+        background-color:#FF4B4F;
+        margin: 0 0 0 0;
+        padding: 70px 0 0 0;
+        font-family: "微软雅黑";
+        font-size: 50px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .Test02:hover{
+        color: #000000;
+    }
+    .Test04{
+        margin-top: 50px;
+        margin-left: 125px;
+        width: 50px;
+        height: 60px
+    }
+    .Test05{
+        width: 50%;
+        height: 200px;
+        border: 0px;
+        margin: 0 0 0 0;
+        background-color:#F7F7F7;
+        font-family: "微软雅黑";
+        color: #000000;
+        display:inline-block;
+    }
+    .Test06{
+        border: 0px;
+        margin: 105.5px 0 0 150px;
+        padding: 0 0 0 0;
+        background-color: #FFE117;
+        width:100px;
+        height:45px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 15px;
+        font-family: "微软雅黑",serif;
+    }
+
+    .Test06:hover{
+        color: #000000;
+        background-color: salmon;
+    }
+    .Test07{
+        border: 0;
+        margin: 35px 0 0 20px;
+        padding: 0 0 0 0;
+        width:100px;
+        height:45px;
+        border-radius: 4px;
+        text-align: center;
+        font-size: 15px;
+        font-family: "微软雅黑",serif;
+        background-color: #000000;
+        color: #EFF1F1;
+    }
+    .Test07:hover{
+        margin: 35px 0 0 150px;
+    }
+    .test1{
+        font-size: 20px;
+        margin: 40px 0 0 0;
+        padding: 10px 0 0 90px;
+        display: inline-block;
+        font-family: "微软雅黑",serif;
+    }
+    .test2{
+        color:red;
+        width: 33%;
+        text-align: center;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 30px
+    }
+    .test3{
+        font-size: 20px;
+        width: 100%;
+        color: #000000;
+        margin-top: 10px;
+        padding: 0 0 0 50px;
+        font-family: 黑体,serif;
+        display: inline-block;
+    }
+    .GuangGao1{
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        border: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 0px;
+        text-align: center;
+        font-family: 微软雅黑,serif;
+        box-shadow:0 0 5px #FF4B4F;
+        color: #FFFFFF;
+        background-color: #FF4B4F;
+    }
+    .GuangGao1:hover{
+        background-color:#F76969;
+    }
+    .GuangGao2{
+        width: 100px;
+        height: 47px;
+        font-size: 20px;
+        border: 0;
+        padding: 0 0 0 20px;
+        font-family: 微软雅黑,serif;
+        box-shadow:0 1px 0 darkslateblue;
+        color: #FFFFFF;
+        background-color: #000000;
+        margin-right: 0;
+    }
+    .GuangGao2:hover{
+        box-shadow:0 0 3px #FFE117;
+        color: #FFE117;
+        background-color: slategrey;
+    }
+    .KongBianKuang{
+        margin: 0 0 0 0;
+        border: 0;
+        padding: 0 0 0 0;
+    }
+    .GuangGaoFont1{
+        width:100%;
+        height: 50px;
+        font-size: 20px;
+        text-align: center;
+        font-family: 微软雅黑,serif;
+        padding: 0 0 0 10px ;
+        margin: 0 0 0 0;
+    }
+    #GuangGaoJueDuiDingWei1{
+        position: fixed;
+        bottom: 50px;
+    }
+    #GuangGaoJueDuiDingWei2{
+        height: 10px;
+        width: 30px;
+        position: fixed;
+        bottom:35px;
+        margin:0;
+    }
+    #GuangGaoJueDuiDingWei2:hover{
+        margin-left: 50px;
+    }
+    #GuangGaoJueDuiDingWei3{
+        height: 10px;
+        width: 10px;
+        position: fixed;
+        bottom:35px;
+        margin-left:390px;
+        border: 0px;
+        color: #C4C3CB;
+        font-size: 15px;
+    }
+    .ELSFKMain{
+        width: 50px;
+        height: 50px;
+        margin: 0 1px 0 0;
+        padding: 0;
+        border: 0;
+        display: inline-block;
+    }
+</style>
+<script>
+
+
+
+    function OpenNewWeb(){
+        var newWeb=window.open("","","width=700,height=400");
+        newWeb.document.write("<body>" +
+                                "<a style='font-size:20px;margin-left: 250px;margin-top: 200px;'>野猪真的能爆神装</a>" +
+                                "<img src='titleTest19.jpg'> " +
+                             "<\/body>")
+    }
+
+    function DelGuangGao(){
+        var temp=document.getElementById('GuangGaoJueDuiDingWei1');
+        temp.innerHTML="";
+    }
+
+    function getHuiYuanIng(index){
+        if (index===0)return 0;
+        if (index!=0){
+            var newWeb=window.open("","","width=500,height=250");
+            newWeb.document.write("" +
+                "<style>" +
+                    ".input{" +
+                    "width: 100%;" +
+                    "height: 50px;" +
+                    "background-color: #F7F7F7;" +
+                    "font-size:20px;" +
+                    "display: block;" +
+                    "border-radius: 20px;" +
+                    "border:0;" +
+                    "}" +
+                "<\/style>" +
+                "<script>" +
+                    "function queren(){" +
+                        "var temp=document.getElementById('input1').value;" +
+                        "var i=-1;" +
+                        "if(temp==='520')i=1;" +
+                        "if(temp==='1314')i=2;" +
+                        "if(temp==='5201314')i=3;"+
+                        "if(i!=-1){" +
+                            "/*alert(window.opener.location.href);*/" +
+                            "var str=window.opener.location.toString();" +
+                            "/*var form=str.length-5;*/" +
+                            "/*var to=str.length;*/" +
+                            "/*alert(form);alert(to);*/" +
+                            "var str1=str.substring(str.length-5,str.length);" +
+                            "var vip=0;" +
+                            "if(str1==='vip=1'){" +
+                                "if(i===1){" +
+                                    "alert('续费成功！尽情享受快乐吧！');" +
+                                    "close();" +
+                                    "return 0;" +
+                                "}" +
+                            "}" +
+                            "if(str1==='vip=2'){" +
+                                "if(i<=2){" +
+                                    "alert('您目前是尊贵的：超级会员！尽情享受超级会员的快乐吧！');" +
+                                    "close();" +
+                                    "return 0;" +
+                                "}" +
+                            "}" +
+                            "if(str1==='vip=3'){" +
+                                "alert('您目前是最尊贵的：大会员！请尽情享受最高权限的快乐吧！');" +
+                                "close();" +
+                                "return 0;" +
+                            "}" +
+                            "var tempstr=window.opener.location.toString();" +
+                            "var tempstr1=tempstr.substring(tempstr.length-5,tempstr.length-1);" +
+                            "/*alert('url:'+tempstr1);*/" +
+                            "if(tempstr1=='vip='){" +
+                                "opener.location=opener.location.toString().substring(0,length-5);" +
+                                "/*alert('截取了字符串');*/" +
+                            "}" +
+                            "opener.location+='#vip='+i;" +
+                            "opener.location.reload();" +
+                            "alert('会员变更成功！感谢您的支持！');" +
+                            "close();" +
+                            "return 0;" +
+                        "}" +
+                        "alert('您的序列号错误，请重新输入');" +
+                    "} " +
+                "<\/script>" +
+                "<body>" +
+                    "<div style='width: 500;height: 250'>" +
+                        "<a style='margin-left: 180px;font-size:18px'>输入您的序列号</a>" +
+                        "<input id='input1' class='input' value='' style='font-size: 18px'>" +
+                        "<input class='input' onclick='queren()' readonly='readonly' value='确认' style='background-color:#009681;color: #F7F7F7;text-align: center;font-size: 20px'" +
+                        "<a style='margin-left: 180px;display: block;font-size:15px'>普通会员序列号：520</a>" +
+                        "<c style='display: block;font-size:15px'>超级会员序列号：1314</c>" +
+                        "<b style='display: block;font-size:15px'>大会员序列号：5201314</b>" +
+                    "</div>" +
+                "</body>");
+            newWeb.moveTo(500,500);
+
+            var u=document.getElementById("getHuiYuan");
+            u.selectedIndex=0;
+        }
+
+    }
+
+
+</script>
+<body>
+
+
+<div id="MainDiv1" class="Test01">
+
+    <div style="height: 50px;background-color: #FFFFFF">
+        <div class="KongBianKuang">
+            <label>
+                <select id="Down" class="GuangGao1" onchange="Down(this.selectedIndex)">
+                    <option class="GuangGaoFont1">下载软件</option>
+                    <option class="GuangGaoFont1">Windows</option>
+                    <option class="GuangGaoFont1">Linux</option>
+                    <option class="GuangGaoFont1">Android</option>
+                </select>
+            </label>
+            <label>
+                <select id="guanyu" onchange="guanyuwomen(this.selectedIndex)" class="GuangGao1" style="border-bottom-left-radius: 0">
+                    <option class="GuangGaoFont1"> 关于我们</option>
+                    <option class="GuangGaoFont1">画大饼的产品经理</option>
+                    <option class="GuangGaoFont1">加班中的程序员</option>
+                    <option class="GuangGaoFont1">崩溃的软件测试</option>
+                </select>
+            </label>
+            <div id="huiyuanDiv" style="display: inline-block">
+                <input class="GuangGao2" value="当前会员:" readonly="readonly"><input id="huiyuanInput" class="GuangGao2" value="游客" readonly="readonly" style="text-align: center;margin:0 0 0 0;padding: 0 0 0 0;border-bottom-right-radius: 20px">
+            </div>
+
+            <span>
+                <input id="nowTime" class="GuangGao2" value="2021年11月11日 14:06:37" style="font-size: 14px;background-color: #FF4B4F;height: 30px;width: 182px;border-radius: 20px;box-shadow:0 0 2px #F76969">
+            </span>
+
+            <label>
+                <select id="pifu" onchange="alert('功能测试中..')" class="GuangGao1" style="border-bottom-left-radius:0;border-bottom-right-radius: 20px;width: 110px">
+                    <option class="GuangGaoFont1">我的账号</option>
+                    <option class="GuangGaoFont1">更换皮肤（会员特权）</option>
+                    <option class="GuangGaoFont1">修改密码</option>
+                    <option class="GuangGaoFont1">退出账号</option>
+                </select>
+            </label>
+        </div>
+    </div>
+
+<!--    <div style="height: 100px;background-color: seashell;width: 100%">-->
+
+<!--        <lable id="creat">-->
+<!--            <select id="nian" onchange="loadDate()">-->
+<!--                <option value="-1">请选择年</option>-->
+<!--            </select>-->
+<!--            <select id="yue" onchange="loadDate()">-->
+<!--                <option value="-1">请选择月</option>-->
+<!--            </select>-->
+<!--            <select id="ri" onchange="loadDay()">-->
+<!--                <option value="-1">请选择日</option>-->
+<!--            </select>-->
+<!--        </lable>-->
+<!--    </div>-->
+
+    <div style="height: 0px;background-color: seashell;width: 100%;position:absolute">
+        <input id="timeID" value="0" style="color: #F7F7F7;background-color: #F7F7F7;border: 0px;">
+    </div>
+
+    <div style="height: 300px;background-color: #F7F7F7;padding: 0 15px 0 15px">
+        <div id="ELSFK01" style="width: 120px;height: 120px;position: absolute">
+            <div class="ELSFKMain" style="background-color:salmon"></div>
+            <div class="ELSFKMain" style="background-color:salmon"></div>
+            <div class="ELSFKMain" style="background-color:salmon"></div>
+            <div class="ELSFKMain" style="background-color:salmon"></div>
+        </div>
+        <div id="ELSFK02" wight="280" style="position:absolute" >
+            <div class="ELSFKMain" style="background-color:skyblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:skyblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:skyblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:steelblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:steelblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:steelblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:mediumturquoise;margin-top: 250px;margin-left: 110px"></div>
+            <div class="ELSFKMain" style="background-color:mediumturquoise;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:mediumturquoise;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:mediumturquoise;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:lightsteelblue;margin-top: 250px"></div>
+            <div class="ELSFKMain" style="background-color:lightsteelblue;margin-top: 250px"></div>
+        </div>
+        <div id="ELSFK03" style="position:absolute">
+            <div class="ELSFKMain" style="background-color:skyblue;margin-top: 195px"></div>
+            <div class="ELSFKMain" style="background-color:steelblue;margin-top: 195px;margin-left: 165px"></div>
+            <div class="ELSFKMain" style="background-color:lightsteelblue;margin-top: 195px;margin-left: 385px"></div>
+            <div class="ELSFKMain" style="background-color:lightsteelblue;margin-top: 195px;margin-left: 0"></div>
+        </div>
+    </div>
+
+
+    <div style="height: 5px;background-color: bisque;width: 100%">
+        <div id="jdtID" style="height: 10px;background-color: sandybrown;width: 1%" ></div>
+    </div>
+
+    <div class="Test02">
+        HTML And CSS And JavaScript
+    </div>
+
+    <div style="height: 180px;background-color:#FF4B4F "><img src="titleTest13.png" style="width:800px;height: 200px"></div>
+
+    <div>
+        <span class="Test05">
+            <test1 class="test1">这是一些广告</test1><test1 class="test1" style="font-size: 13px;padding-right: 40px;margin-top: 0">也许你很疑惑为什么看见这些信息，点击帮助可以帮助您了解我们的业务，成为会员后我们将减少广告显示的相关性。</test1></span><span class="Test05">
+            <img style="padding:110px 0 0 102px;position: absolute" src="titleTest03.png" height="35" width="35" >
+            <input class="Test06" onclick="alert('请选择会员类型')" readonly="readonly" value="成为会员" style="padding-right: 20px;margin-left: 100px;width: 100px;text-align: right">
+            <select id="getHuiYuan" onchange="getHuiYuanIng(this.selectedIndex)" class="Test06" readonly="readonly" style="color:lightskyblue;background-color: #FFFFFF;width: 110px;box-shadow:0px 0px 5px lightskyblue;margin: 0px">
+                <option value="0">选择会员</option>
+                <option value="1">普通会员 29￥/月</option>
+                <option value="2">超级会员 69￥/月</option>
+                <option value="3">大 会 员 129￥/月</option>
+            </select>
+            </span>
+    </div>
+
+    <div style="background-color: black;width:100%;height: 200px">
+            <span>
+                <a class="test2">普通会员</a><a class="test2">超级会员</a><a class="test2">大会员</a>
+                <b class="test2" style="font-size: 17px;margin-top:10px;padding-left:17px ">减少少量广告相关性</b><b class="test2" style="font-size: 17px;margin-top:10px;padding-left:0px ">减少大量广告相关性</b><b class="test2" style="font-size: 17px;margin-top:10px;width:20%;padding-left:65px">几乎没有广告相关性</b>
+                <b class="test2" style="font-size: 17px;margin-top:10px;padding-left:17px "></b><b class="test2" style="font-size: 16px;margin-top:10px;padding-left:2px ">综合提升70%浏览速度</b><b class="test2" style="font-size: 16px;margin-top:10px;width:20%;padding-left:67px">综合提升90%浏览速度</b>
+                <b class="test2" style="font-size: 17px;margin-top:10px;padding-left:17px "></b><b class="test2" style="font-size: 16px;margin-top:10px;padding-left:2px "></b><b class="test2" style="font-size: 18px;margin-top:10px;width:20%;padding-left:60px">尊享极致下载体验</b>
+            </span>
+    </div>
+
+    <div style="width:100%;height: 200px;background-color: #FF4B4F">
+        <img class="Test04" src="titleTest08.png">
+        <img class="Test04" style="margin-top: 50px;margin-left: 195px;width: 50px;height: 60px" src="titleTest07.png">
+        <img class="Test04" style="margin-top: 50px;margin-left: 225px;width: 50px;height: 60px" src="titleTest10.png">
+        <b class="test2" style="color:white;font-size: 25px;margin-top:10px;padding-left:17px ">更高的办公效率</b><b class="test2" style="color:white;font-size: 25px;width:25%;margin-top:10px;padding-left:25px ">更安全的浏览保护</b><b class="test2" style="color:white;font-size: 25px;margin-top:10px;width:25%;padding-left:75px">更轻松的观看效果</b>
+    </div>
+
+    <div style="background-color: #F7F7F7;height:200px">
+            <span style="display: inline-block;width: 50%">
+                <a class="test3" style="margin-left: 50px;font-size: 15px;padding-left:10px;text-align: center">我们始终坚信用户为上的准则，并致力于创建用户体验更佳、速度更快、效率更高的网站，感谢三天来诸位的陪伴，让我们网站成功运营至今。</a>
+                <a class="test3" style="padding-left:220px ;font-size: 25px">至此</a>
+                <a class="test3" style="padding-left:150px ">赠送所有用户永久会员</a>
+            </span>
+        <span style="display: inline">
+                <img src="titleTest15.png" style="display: inline-block;width: 17%;margin-left: 150px;position: relative">
+        </span>
+    </div>
+
+    <div style="width:100%;height: 120px;background-color: #FF4B4F">
+        <input class="Test06" readonly="readonly" value="更多帮助" style="margin-left: 200px;margin-top: 35px">
+        <input class="Test06" readonly="readonly" value="联系我们" style="margin-left: 20px;margin-top: 35px;background-color: #EFF1F1">
+        <input class="Test07" readonly="readonly" value="投诉建议" style="">
+    </div>
+
+    <div>
+        <div id="GuangGaoJueDuiDingWei1">
+            <input value="一刀999，装备全靠打，野猪也能爆神装！" readonly="readonly" style="width: 400px;height: 30px;font-size: 20px;position:fixed" onclick="OpenNewWeb()">
+            <input id="GuangGaoJueDuiDingWei2" value="关闭" readonly="readonly" onclick="OpenNewWeb()" >
+            <input id="GuangGaoJueDuiDingWei3" value="X" readonly="readonly" onclick="DelGuangGao()">
+        </div>
+    </div>
+
+
+</div>
+
+<script>
+
+    // //2021年11月15日09:11:16答案
+    // function loadDate() {
+    //
+    //     var temp1 = document.getElementById("nian");
+    //     var temp2 = document.getElementById("yue");
+    //
+    //     for (var i = 0; i < 12; i++) {
+    //         var mon = new Option(i + 1 + "月", i + 1);
+    //         temp2.options[m.lenght] = mon;
+    //     }
+    //     var curr = new Date().getFullYear();
+    //     for (var i = curr - 5; i < curr + 5; i++) {
+    //         var year = new Option(i = "年", i);
+    //         nian.options[year.lenght] = year;
+    //     }
+    // }
+    //     function loadDay(){
+    //         var temp1 = document.getElementById("nian");
+    //         var temp2 = document.getElementById("yue");
+    //         var temp3 = document.getElementById("ri");
+    //
+    //         var year=nian.options[y.selectedIndex].value;
+    //         var mon=yue.options[y.selectedIndex].value;
+    //
+    //         if(temp1==1||temp2==1){
+    //             temp3.Options.length=1;
+    //             return;
+    //         }
+    //
+    //         if(temp3.length==1){
+    //             for(var i=1;i<=28;i++){
+    //                 var dayOption=new Option(i+"日",i);
+    //                 temp3.options[temp3.length]=dayOption;
+    //             }
+    //         }
+    //
+    //         var day=new Date(temp1,temp2,0).getDate();
+    //
+    //         temp3.options.length=29;
+    //
+    //         for(var i=29;i<=temp3;i++){
+    //             var dayOption=new Option(i+"日",i);
+    //             temp3.options[temp3.length]=dayOption;
+    //         }
+    //
+    //     }
+
+
+
+    // //2021年11月15日09:11:16作业
+    // function creatDate(){
+    //
+    //     var temp1=document.getElementById("creat");
+    //     var temp2=document.getElementById("nian");
+    //     var date=new Date();
+    //     var n=date.getFullYear();
+    //     var n2=1;
+    //
+    //     for(var n2=1;n2<=5;n2++){
+    //         var n3=parseInt(n)-parseInt(n2)+1;
+    //         temp2.innerHTML+="<option value="+1+">"+n3+"</option>";
+    //     }
+    // }
+    //
+    // creatDate();
+
+
+    // function creatMon(index){
+    //     var temp1=document.getElementById("nina");
+    //     var temp2=document.getElementById("yue");
+    //     for(var i=1;i<=12;i++){
+    //         temp2.innerHTML+="<option value="   +i+ ">" +i+"月"+"</option>";
+    //     }
+    // }
+    //
+    //
+    // function creatDay(index){
+    //     var temp1=document.getElementById("nina");
+    //     var temp2=document.getElementById("yue");
+    //     var temp3=document.getElementById("ri");
+    //
+    //     if(index==1||index==3||index==5||index==6||index==8||index==10||index==12){
+    //         for(var i=1;i<=31;i++){
+    //             temp3.innerHTML+="<option value="   +i+ ">" +i+"日"+"</option>";
+    //         }
+    //     }
+    //     if(index==4||index==7||index==9||index==11){
+    //         for(var i=1;i<=30;i++){
+    //             temp3.innerHTML+="<option value="   +i+ ">" +i+"日"+"</option>";
+    //         }
+    //     }
+    //
+    //     if(index==2){
+    //
+    //
+    //
+    //         for(var i=1;i<=28;i++){
+    //             temp3.innerHTML+="<option value="   +i+ ">" +i+"日"+"</option>";
+    //         }
+    //     }
+    // }
+    //
+    //
+    //
+
+
+
+
+
+
+
+    function Down(index){
+        if(index==0)return 0;
+        var sel=document.getElementById("Down");
+        sel.selectedIndex=0;
+        var newWeb=window.open("","","width=500,height=400");
+        newWeb.document.write(
+            "<a>下载中</a>" +
+            "<div id='time' style='height: 10px;background-color: sandybrown;width: 0;position: absolute;'></div>" +
+            "<div style='height: 10px;background-color: mistyrose;'></div>" +
+            "<script>" +
+                "var timeValue=0;" +
+                "var time=setInterval(function (){" +
+                    "timeValue+=1;" +
+                    "if(timeValue>=300){" +
+                            "timeValue=0;" +
+                            "alert('下载成功！');" +
+                            "opener.location.reload();" +
+                            "close();" +
+                            "return 0;" +
+                    "}" +
+                "document.getElementById('time').style.width=((timeValue/3.1).toString())+'%';" +
+                "},10);"+
+            "<\/script>");
+    }
+
+    function guanyuwomen(index){
+        document.getElementById("guanyu").selectedIndex=0;
+        if(index===1) {
+            var newWeb=window.open("","","width=500,height=700");
+            newWeb.document.write("" +
+                "<body>" +
+                    "<img src='titTese22.gif'>" +
+                "<\/body>");
+        }
+        if(index===2) {
+            var newWeb=window.open("","","width=500,height=700");
+            newWeb.document.write("" +
+                "<body>" +
+                "<img src='titTese20.gif'>" +
+                "<\/body>");
+        }
+        if(index===3) {
+            var newWeb=window.open("","","width=500,height=700");
+            newWeb.document.write("" +
+                "<body>" +
+                "<img src='titTese21.gif'>" +
+                "<\/body>");
+        }
+    }
+
+
+    function move(ElementID,Long,MAXx,MAXy){
+
+        let NowLeft=document.getElementById(ElementID);
+        let GetLeft=getComputedStyle(NowLeft,null).paddingLeft;
+        let LeftToInt=parseInt(GetLeft);
+        LeftToInt+=Long;
+        if(LeftToInt>MAXx){
+            let GetTop=getComputedStyle(NowLeft,null).paddingTop;
+            let TopToInt=parseInt(GetTop);
+            TopToInt+=(Long*100);
+            if(TopToInt>MAXy){
+                NowLeft.style.paddingLeft="0";
+                NowLeft.style.paddingTop="0";
+                return 0;
+            }
+            NowLeft.style.paddingLeft="0";
+            NowLeft.style.paddingTop=TopToInt.toString()+"px";
+            return 0;
+        }
+        NowLeft.style.paddingLeft=LeftToInt.toString()+"px";
+    }
+
+    function moveX(ElementID,Long,MAXx){
+        let NowLeft=document.getElementById(ElementID);
+        let GetLeft=getComputedStyle(NowLeft,null).paddingLeft;
+        let LeftToInt=parseInt(GetLeft);
+        LeftToInt+=Long;
+        if((LeftToInt)>=MAXx)return 0;
+        NowLeft.style.paddingLeft=LeftToInt.toString()+"px";
+    }
+    function moveY(ElementID,Long,MAXy){
+        let NowTop=document.getElementById(ElementID);
+        let getTop=getComputedStyle(NowTop,null).paddingTop;
+        let TopToInt=parseInt(getTop);
+        TopToInt+=Long;
+        if((TopToInt)>=MAXy)return 0;
+        NowTop.style.paddingTop=TopToInt.toString()+"px";
+    }
+
+
+    function huiyuan123(){
+        var str=window.location.hash.toString();
+        //alert(str);
+        var str1=str.substring(1,str.length-1);
+        //alert(str1);
+        if (str1=="vip=") {
+            //alert(str1+"等于"+"vip=");
+            var temp=document.getElementById("huiyuanInput");
+            str2=str.substring(str.length-1,str.length);
+            if(str2==1){
+                temp.value="普通会员";
+            }
+            if(str2==2){
+                temp.value="超级会员";
+            }
+            if(str2==3){
+                temp.value="大会员";
+            }
+            return 0;
+        }
+       //alert(str1+"不等于"+"vip=");
+    }
+
+    var timeValue=0;
+    var strColor=[];
+    strColor[0]="#FFFF00";
+    strColor[1]="#EEEE00";
+    strColor[2]="#CDCD00";
+    strColor[3]="#8B8B00";
+    strColor[4]="#FFD700";
+    strColor[5]="#EEC900";
+    strColor[6]="#CDAD00";
+    var time=setInterval(function (){
+        timeValue+=1;
+        if(timeValue===700)timeValue=0;
+        document.getElementById("timeID").value=timeValue;
+
+        var vipID=document.getElementById("huiyuanInput");
+        var jdtID=document.getElementById("jdtID");
+
+        vipID.style.color=strColor[timeValue/100];
+        jdtID.style.width=(((timeValue/10)/0.7)+"%");
+
+
+        var nowtimeID=document.getElementById("nowTime");
+        let time=new Date();
+        nowtimeID.value=time.toLocaleString();
+
+
+        if(timeValue<331) {
+            moveX("ELSFK01", 1, 331);
+        }
+        if(timeValue>331 && timeValue<528) {
+            moveY("ELSFK01", 1, 197);
+        }
+        if(timeValue===530){
+            document.getElementById("ELSFK02").innerHTML=" ";
+            document.getElementById("ELSFK01").innerHTML="            " +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>";
+        }
+
+        if(timeValue>530 && timeValue<586){
+            moveY("ELSFK01", 1, 251);
+            moveY("ELSFK02", 1, 251);
+            moveY("ELSFK03", 1, 251);
+        }
+
+        if(timeValue===699){
+            document.getElementById("ELSFK02").innerHTML="            " +
+                "            <div class=\"ELSFKMain\" style=\"background-color:skyblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:skyblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:skyblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:steelblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:steelblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:steelblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:mediumturquoise;margin-top: 250px;margin-left: 110px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:mediumturquoise;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:mediumturquoise;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:mediumturquoise;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:lightsteelblue;margin-top: 250px\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:lightsteelblue;margin-top: 250px\"></div>";
+
+            document.getElementById("ELSFK01").innerHTML="            " +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>\n" +
+                "            <div class=\"ELSFKMain\" style=\"background-color:salmon\"></div>";
+            document.getElementById("ELSFK01").style.paddingLeft="0px";
+            document.getElementById("ELSFK01").style.paddingTop="0px";
+            document.getElementById("ELSFK02").style.paddingTop="0px";
+            document.getElementById("ELSFK03").style.paddingTop="0px";
+
+        }
+
+
+    },10)
+
+    huiyuan123();
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+List
+    增   add(E e)    add(int index,E element)
+    删   clear()     remove(int index)       remove(Object o)
+    改   set(int index,E element)
+    查   get(int index)
+    其他  size() toArray()
+
+
+Set
+    增   add(E e)
+    删   clear()       remove(Object o)
+    改
+    查
+    其他  size() toArray()
+
+Map
+    增   put(K key,V value)
+    删   clear()     remove(Object key)
+    改   put(K key,V value)
+    查   get(Object key)
+    其他  size() toArray()
+
+实现Iterable接口允许对象成为foreach语句目标

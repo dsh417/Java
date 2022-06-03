@@ -1,0 +1,35 @@
+String和byte[]的转换
+byte[]->String
+        String(byte[] bytes)
+        平台默认字符集解码指定的byte数组
+        中国 中文是GBK编码
+        String(byte[] bytes，String charsetName)
+        使用指定的charset解码指定的byte数组
+
+        方法：
+            不加参数gbk编码
+            byte[]  getBytes();
+
+            byte[]  getBytes(String charsetName);
+
+编码
+    计算机只认识二进制
+    字模库
+
+    ascii码
+    128个字符        7位编码
+
+    gb2316      6000个文字     16位 2byte 2字节
+    gbk         2w个文字       和gb2316兼容
+
+    国际化组织   Unicode
+    utf-8
+    1-3个字节      可变长
+    中文占3字节
+    英文1个字节
+
+    utf-16
+    16位的定长方案    2个字节
+
+    utf-16be
+    java内部处理文字使用的编码

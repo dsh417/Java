@@ -1,0 +1,39 @@
+集合
+    放一组相同类型元素的容器
+
+
+Collection                                                          Map
+    List                Set
+        ArryayList          HashSet（哈希散列表）                          HashMap
+        Vector              TreeSet                                      TreeSetMap
+        LinkedList          LinkedHashSet（有顺序，有哈希表特征）           LinkedHashSet
+                                                                         LinkedHashMap
+                                                                         Properties
+List
+    有放入顺序,放入的元素可以重复
+
+Set
+    无放入顺序，放入的元素不可以重复
+
+Map
+    键值对
+    a=1
+    b=2
+    c=3
+
+Map.Entry<K,V>表示Map中的每一对key和value
+
+Properties
+    属性文件
+
+    文件名.Properties文本文件
+    格式
+        键值对 key=value
+        #表示注释
+        所有东西都是String类型
+        文件的编码只能是IOS8859-1（不能写中文，可以有中文的值）
+
+
+
+
+

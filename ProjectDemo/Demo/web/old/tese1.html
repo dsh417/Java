@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <script type="javascript" src="../jQuery/jquery-1.4.1.min.js">
+
+        // $(document).ready(function (){
+        //     alert(1);
+        // })优化为：：
+        // $(function (){
+        //     // alert(document.getElementById("a2").innerHTML);优化为
+        //     // alert($("#a2"));
+        //     alert($("#a2")[0].innerHTML);
+        //
+        // });
+
+        // function f1(e){
+        //     //alert(e.traget);
+        //
+        //     alert(e.clienX+"  "+e.clienY);
+        // }
+        //
+        // function f2(){
+        //     location="data.html";
+        // }
+        //
+        // function oncliA(e){
+        //     //阻止事件冒泡
+        //     e.cancelBubble=true;
+        //
+        //     document.getElementById("").style.display="none";
+        // }
+        // //事件和组件分离写法
+        // window.onload=function (){
+        //     document.getElementById("a2").onclick=function (){
+        //         alert(1);
+        //     }
+        // }
+
+    </script>
+</head>
+<body>
+<a href="javascript:;" onclick="f1(event);">test</a>
+
+
+
+<a id="a2" href="javascript:;">test2</a>
+<div onclick="f2()" style="width: 200px;height: 200px;background-color: sandybrown">
+    <a href="javascript:;" onclick="oncliA(event)">关闭</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+预编译的操作对象
+    PreparedStatement
+
+    jdbc首先会把sql语句交给数据库编译

@@ -1,0 +1,37 @@
+反射
+    今天用反射写的代码能调用明天写的程序
+
+    Class
+        管理类的对象
+
+    Class的对象由虚拟机在类加载时创建对应的Class对象
+    Class的对象是单例的
+
+    public Class class{
+        private Package pack;
+        private String name;
+        private Class superClass;
+        private Class[] interfaces;
+        private Field[] fields;
+        private Constructor[] constructor;
+        private Method[] methods;
+
+
+    }
+
+    //包
+    public class Package{
+
+    }
+    //属性
+    public class Field{
+
+    }
+    //构造方法
+    public class Constructor{
+
+    }
+    //方法
+    public class Method{
+
+    }

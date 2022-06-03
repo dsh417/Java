@@ -1,0 +1,6 @@
+getcalss().getname()
+获得包名，类名
++@
++hashcode的十六进制
+
+需要就重写

@@ -1,0 +1,7 @@
+StringBuffer
+StringBuilder
+
+    api完全相同
+    
+    StringBuffer 线程安全，性能相对比StringBuilder低一点
+    StringBuilder 线程不安全
