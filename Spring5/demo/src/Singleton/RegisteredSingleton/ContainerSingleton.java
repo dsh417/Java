@@ -4,6 +4,9 @@ import java.lang.reflect.Constructor;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+//便于管理，但 非线程安全，
+
+//Spring容器式单例，和下列代码相似也是一个hashmap作为容器，通过类名newInstance出实例
 public class ContainerSingleton {
     private ContainerSingleton(){}
 
@@ -13,6 +16,7 @@ public class ContainerSingleton {
         synchronized (ioc){
             if(!ioc.containsKey(className)){
                 Object obj=null;
+
                 try {
                     obj=Class.forName(className).newInstance();
                     ioc.put(className,obj);
@@ -23,11 +27,12 @@ public class ContainerSingleton {
                     e.printStackTrace();
                 } catch (ClassNotFoundException e) {
                     e.printStackTrace();
-                } finally {
                 }
-
+                return obj;
+            }else {
+                return ioc.get(className);
             }
         }
-    return 0;
+
     }
 }

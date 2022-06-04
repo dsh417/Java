@@ -1,5 +1,6 @@
 package Singleton.LazySingleton;
 
+//饿汉式，被外部类调用的时候内部类才加载
 public class LazySimpleSingleton {
     private LazySimpleSingleton(){}
 
