@@ -7,7 +7,7 @@ package Singleton.LazySingleton;
 import java.io.Serial;
 import java.io.Serializable;
 
-public class EndLazyInnerClassSingleton implements Serializable {
+public class EndLazyInnerClassSingleton implements Serializable,Cloneable {
     //解决饿懒汉单例模式内存浪费和synchronized性能问题
     //使用EndLazyInnerClassSingleton的时候，默认会初始化内部类
     //如果没使用，内部类是不加载的
@@ -40,6 +40,12 @@ public class EndLazyInnerClassSingleton implements Serializable {
     //优化序列化破坏单例,然而通过翻源码，实际上可以知道实例化了两次，只不过新的对象没有被返回，并没有从根本解决问题
     @Serial
     private Object readResolve(){
+        return LazyHolder.LAZY;
+    }
+
+    //重写clone方法
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
         return LazyHolder.LAZY;
     }
 }
