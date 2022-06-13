@@ -18,12 +18,21 @@ public class OrderServiceStaticProxy implements IOrderService{
         before();
         Long time=order.getCreateTime();
         Integer dbRouter=Integer.valueOf(yearFamat.format(new Date()));
-
+        System.out.println("静态代理类自动分配到【DB_"+dbRouter+"】数据源处理数据");
+        DynamicDataSourceEntry.set(dbRouter);
+        orderService.createOrder(order);
+        after();
 
         return 0;
+    }
+
+    private void after() {
+        System.out.println("Proxy after method");
     }
 
     private void before() {
         System.out.println("Proxy befor method");
     }
+
+
 }
