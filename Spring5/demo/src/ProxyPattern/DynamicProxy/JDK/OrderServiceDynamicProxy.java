@@ -1,4 +1,4 @@
-package ProxyPattern.DynamicProxy.TearProxy;
+package ProxyPattern.DynamicProxy.JDK;
 
 import ProxyPattern.StaticProxy.instance.DynamicDataSourceEntry;
 
