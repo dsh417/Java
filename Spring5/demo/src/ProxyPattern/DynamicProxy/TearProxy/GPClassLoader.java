@@ -6,6 +6,7 @@ public class GPClassLoader extends ClassLoader {
     private File classPathFile;
 
     public GPClassLoader() {
+        //构造器。获取要动态生成文件的地址并新建文件
         String classPath=GPClassLoader.class.getResource("").getPath();
         this.classPathFile=new File(classPath);
     }

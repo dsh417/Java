@@ -58,11 +58,11 @@ public class GPProxy {
         //依赖名
         sb.append("import ProxyPattern.DynamicProxy.JDK.Person;"+ln);
         sb.append("import java.lang.reflect.*;"+ln);
-        //类，接口
+        //类，和所有接口
         sb.append("public class $Proxy0 implements "+interfaces[0].getName()+"{"+ln);
             //成员名(记得+;)
             sb.append("GPInvocationHandler h;"+ln);
-            //新对象有参构造方法
+            //新对象的参构造方法
             sb.append("public $Proxy0(GPInvocationHandler h) {"+ln);
                 sb.append("this.h=h;"+ln);
             sb.append("}"+ln);

@@ -10,6 +10,7 @@ public class GPMeipo implements GPInvocationHandler {
         this.traget=traget;
 
         Class<?> clazz=traget.getClass();
+        //新建一个类加载器并动态创建文件到类字节码目录、实现所有的接口
         return GPProxy.newProxyInstance(new GPClassLoader(),clazz.getInterfaces(),this);
     }
 
