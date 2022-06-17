@@ -1,0 +1,11 @@
+CGLib执行效率比JDK高
+因为使用了FastClass机制
+原理是，给代理类和被代理类的方法 分配一个index类型（int），当做参数，FastClass就可以直接定位到要调用的方法并直接进行调用，不需要再反射调用
+
+
+比较
+JDK动态的实现了被代理对象的所有接口         CGLib代理继承了被代理对象
+
+JDK动态代理和CGLib代理 都在运行期间生成字节码，JDK动态代理直接写Class字节码，CGLib代理使用ASM框架写Class字节码，由于CGlib更复杂，生成代理类比JDK动态代理效率低
+
+JDK动态代理是用反射机制实现的，CGLib代理是通过FastClass机制直接调用方法的，所以CGLib执行效率更高

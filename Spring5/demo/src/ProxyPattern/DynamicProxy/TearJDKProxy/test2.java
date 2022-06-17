@@ -1,4 +1,4 @@
-package ProxyPattern.DynamicProxy.TearProxy;
+package ProxyPattern.DynamicProxy.TearJDKProxy;
 
 public class test2 {
     public static void main(String[] args) {

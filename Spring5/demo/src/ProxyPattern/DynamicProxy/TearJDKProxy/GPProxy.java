@@ -1,4 +1,4 @@
-package ProxyPattern.DynamicProxy.TearProxy;
+package ProxyPattern.DynamicProxy.TearJDKProxy;
 
 import javax.tools.JavaCompiler;
 import javax.tools.StandardJavaFileManager;

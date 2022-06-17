@@ -1,4 +1,4 @@
-package ProxyPattern.DynamicProxy.TearProxy;
+package ProxyPattern.DynamicProxy.TearJDKProxy;
 
 import ProxyPattern.DynamicProxy.JDK.Customer;
 import ProxyPattern.DynamicProxy.JDK.Person;
