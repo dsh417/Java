@@ -1,6 +1,6 @@
-package SimpleFactory.imp;
+package Factory.SimpleFactory.imp;
 
-import SimpleFactory.ICourse;
+import Factory.SimpleFactory.ICourse;
 
 public class test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package SimpleFactory;
+package Factory.SimpleFactory;
 
 public class CourseFactory {
 //    public ICourse create(String name){

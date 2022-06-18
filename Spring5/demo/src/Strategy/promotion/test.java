@@ -1,4 +1,4 @@
-package promotion;
+package Strategy.promotion;
 
 public class test {
     public static void main(String[] args) {

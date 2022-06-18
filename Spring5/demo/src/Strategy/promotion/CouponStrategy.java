@@ -1,4 +1,4 @@
-package promotion;
+package Strategy.promotion;
 
 public class CouponStrategy implements PromotionStrategy{
 

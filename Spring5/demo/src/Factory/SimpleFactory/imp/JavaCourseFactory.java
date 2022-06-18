@@ -1,7 +1,7 @@
-package SimpleFactory.imp;
+package Factory.SimpleFactory.imp;
 
-import SimpleFactory.ICourse;
-import SimpleFactory.JavaCourse;
+import Factory.SimpleFactory.ICourse;
+import Factory.SimpleFactory.JavaCourse;
 
 public class JavaCourseFactory implements ICourseFactory{
 

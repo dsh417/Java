@@ -1,7 +1,7 @@
-package SimpleFactory.imp;
+package Factory.SimpleFactory.imp;
 
-import SimpleFactory.ICourse;
-import SimpleFactory.PythonCourse;
+import Factory.SimpleFactory.ICourse;
+import Factory.SimpleFactory.PythonCourse;
 
 public class PythonCourseFactory implements ICourseFactory{
 

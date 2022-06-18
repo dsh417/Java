@@ -1,4 +1,4 @@
-package promotion;
+package Strategy.promotion;
 /*
 * 促销策略接口
 * */
