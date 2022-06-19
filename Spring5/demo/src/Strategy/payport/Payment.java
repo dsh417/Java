@@ -11,10 +11,10 @@ public abstract class Payment {
     protected abstract double queryBalance(String uid);
 
 //    扣款支付
-    public AliPay pay(String uid, double amount){
+    public PayState pay(String uid, double amount){
         if(queryBalance(uid)<amount){
-            return new AliPay(500,"支付失败","余额不足");
+            return new PayState(500,"支付失败","余额不足");
         }
-        return new AliPay(200,"支付成功",amount);
+        return new PayState(200,"支付成功","支付金额"+amount);
     }
 }
