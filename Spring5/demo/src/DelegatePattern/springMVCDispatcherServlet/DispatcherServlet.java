@@ -23,6 +23,11 @@ public class DispatcherServlet extends HttpServlet {
             new SystemController().logout();
         }
     }
+    /*
+    *
+    * 这是非常离谱的实现方式，优化-> ~/more
+    *
+    * */
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

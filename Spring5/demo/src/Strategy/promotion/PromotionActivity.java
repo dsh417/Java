@@ -10,4 +10,5 @@ public class PromotionActivity {
     public void execute(){
         promotionStrategy.doPromotion();
     }
+
 }
