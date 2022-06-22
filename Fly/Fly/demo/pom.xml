@@ -58,6 +58,13 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
+<!--        tomcat内置-->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>compile</version>
+        </dependency>
+
     </dependencies>
 
     <build>
