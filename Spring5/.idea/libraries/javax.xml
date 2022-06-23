@@ -1,9 +1,10 @@
 <component name="libraryTable">
   <library name="javax">
     <CLASSES>
-      <root url="file://C:/pack/javax" />
+      <root url="file://$USER_HOME$/lib/javax.servlet" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/lib/javax.servlet" recursive="false" />
   </library>
 </component>
