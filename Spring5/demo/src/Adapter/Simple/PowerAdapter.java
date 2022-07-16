@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.Simple;
 
 public class PowerAdapter implements DC5{
 

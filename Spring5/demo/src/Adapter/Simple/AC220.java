@@ -1,4 +1,4 @@
-package Adapter;
+package Adapter.Simple;
 
 public class AC220 {
     public int outputAC220(){
