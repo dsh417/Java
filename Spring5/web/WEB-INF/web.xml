@@ -7,7 +7,7 @@
     
     <servlet>
         <servlet-name>delegateServlet</servlet-name>
-        <servlet-class>DelegatePattern.springMVCDispatcherServlet.DispatcherServlet</servlet-class>
+        <servlet-class>DisignMode.Delegate.springMVCDispatcherServlet.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     
