@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-120.0" y="-14.0">Strategy.promotion</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="分层" zoom="0.8627633490726766" showDependencies="false" x="192.00794273342285" y="429.6005728589557" />
+  <SelectedNodes>
+    <node>Strategy.promotion</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
