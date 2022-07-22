@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="factory" class="top.duanshuheng.ioc.entiy3.SomeBeanFactory">
+
+    </bean>
+
+    <bean id="someBean" factory-bean="factory" factory-method="getSomeBean">
+
+    </bean>
+
+    <bean id="date" factory-bean="cal" factory-method="getTime" >
+
+    </bean>
+
+    <bean id="cal" class="java.util.Calendar" factory-method="getInstance">
+
+    </bean>
+</beans>
