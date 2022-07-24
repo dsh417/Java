@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--    spring不是简单装配，但是玩不想改这样的配置，如何解决？告诉转换规则-->
+    <bean id="person" class="top.duanshuheng.ioc.entiy12_Person.Person">
+        <property name="addr" value="江苏省-南京市"></property>
+        <property name="birthday" value="2022/02/01"></property>
+        <property name="hobbies" value="吃，玩，睡"></property>
+    </bean>
+
+    <bean class="org.springframework.beans.factory.config.CustomEditorConfigurer">
+
+        <property name="customEditors">
+            <map>
+                <entry key="top.duanshuheng.ioc.entiy12_Person.Address2">
+                    <bean class="top.duanshuheng.ioc.entiy12_Person.AddrerssEdittor"/>
+                </entry>
+                <entry key="java.util.Date">
+<!--                    <bean class=""-->
+                    <bean class="top.duanshuheng.ioc.entiy12_Person.DateEditor">
+                        <property name="dateFormat" value="yyyy/MM/dd"></property>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+    </bean>
+
+
+</beans>

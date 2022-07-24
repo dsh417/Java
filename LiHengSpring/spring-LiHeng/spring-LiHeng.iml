@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="ApplicationContext2" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="ApplicationContext3" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext3.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+        </fileset>
+        <fileset id="fileset4" name="ApplicationContext4" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext4.xml</file>
+        </fileset>
+        <fileset id="fileset5" name="ApplicationContext5" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext5.xml</file>
+        </fileset>
+        <fileset id="fileset6" name="ApplicationContext6" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext6.xml</file>
+        </fileset>
+        <fileset id="fileset7" name="ApplicationContext7" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext7.xml</file>
+        </fileset>
+        <fileset id="fileset8" name="ApplicationContext8" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext8.xml</file>
+        </fileset>
+        <fileset id="fileset9" name="ApplicationContext9" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext9.xml</file>
+        </fileset>
+        <fileset id="fileset10" name="ApplicationContext10" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext10.xml</file>
+        </fileset>
+        <fileset id="fileset11" name="ApplicationContext11" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext11.xml</file>
+        </fileset>
+        <fileset id="fileset12" name="ApplicationContext12" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext12.xml</file>
+        </fileset>
+        <fileset id="fileset13" name="ApplicationContext17" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext17.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
