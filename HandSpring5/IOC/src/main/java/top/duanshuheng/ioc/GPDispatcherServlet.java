@@ -17,6 +17,7 @@ import java.util.*;
 
 import static javax.xml.bind.JAXBContext.newInstance;
 
+//最初版本的手写ioc
 //所有核心业务逻辑全部卸载init()方法中
 public class GPDispatcherServlet extends HttpServlet {
     private Map<String,Object> mapping=new HashMap<String,Object>();
@@ -35,7 +36,7 @@ public class GPDispatcherServlet extends HttpServlet {
     }
 
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception{
-//        获取url
+//        获取url,把前部分去掉留下请求路径
         String url= String.valueOf(req.getRequestURL());
         System.out.println("获取到url="+url);
         String contextPath=req.getContextPath();
@@ -55,16 +56,19 @@ public class GPDispatcherServlet extends HttpServlet {
         method.invoke(this.mapping.get(method.getDeclaringClass().getName()),new Object[]{req,resp,params.get("name")[0]});
     }
 
+
+//        =====以下是1.0版本，使用设计模式后进化2.0，代码是同名java_v2==================================================================
     @Override
     public void init(ServletConfig config) throws ServletException {
         InputStream is=null;
         try {
             Properties configContext=new Properties();
             is=this.getClass().getClassLoader().getResourceAsStream(config.getInitParameter("contextConfigLocation"));
-            
+
             configContext.load(is);
             String scanPackage=configContext.getProperty("scanPackage");
             doScanner(scanPackage);
+
 
             for (String className : mapping.keySet()) {
                 if(!className.contains(".")){continue;}
@@ -163,6 +167,7 @@ public class GPDispatcherServlet extends HttpServlet {
     }
 
     private void doScanner(String scanPackage) {
+//        将包里所有类名存储在mapping容器里
         URL url=this.getClass().getClassLoader().getResource("/"+scanPackage.replaceAll("\\.","/"));
         File classDir=new File(url.getFile());
         for (File file : classDir.listFiles()) {
