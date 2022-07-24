@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="top.duanshuheng.ioc.Dao.impl.UserDaoImpl">
+
+    </bean>
+
+    <bean id="userService" class="top.duanshuheng.ioc.Service.impl.UserServiceImpl">
+        <property name="userDao" ref="userDao"/>
+    </bean>
+
+<!--    <bean id="simpleSomeBean" class="top.duanshuheng.ioc.entiy.SimpleSomeBean">-->
+<!--        <property name="var"><value>123</value></property>-->
+<!--        <property name="str"><value>abc</value></property>-->
+<!--        <property name="c"><value>java.lang.String</value></property>-->
+<!--    </bean>-->
+
+    <bean id="simpleSomeBean" class="top.duanshuheng.ioc.entiy.SimpleSomeBean">
+        <property name="var" value="111"></property>
+        <property name="str" value="abc"></property>
+        <property name="c" value="java.lang.String"></property>
+    </bean>
+
+    <bean id="otherBean" class="top.duanshuheng.ioc.entiy.OtherBean_BeSomeBeanBox">
+        <property name="str" value="aaa"></property>
+    </bean>
+
+    <bean id="someBean" class="top.duanshuheng.ioc.entiy.SomeBean">
+        <property name="ob" ref="otherBean"></property>
+    </bean>
+
+    <bean id="listBean" class="top.duanshuheng.ioc.entiy.ListBean">
+        <property name="list" >
+            <list>
+                <value>aaa</value>
+                <value>bbb</value>
+                <value>ccc</value>
+            </list>
+        </property>
+        <property name="set">
+            <set>
+                <value>aa</value>
+                <value>bb</value>
+                <value>cc</value>
+            </set>
+        </property>
+        <property name="map">
+            <map>
+                <entry key="a">
+                    <value>1</value>
+                </entry>
+                <entry key="b">
+                    <value>2</value>
+                </entry>
+                <entry key="c">
+                    <value>3</value>
+                </entry>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="a">1</prop>
+                <prop key="b">2</prop>
+                <prop key="c">3</prop>
+            </props>
+        </property>
+        <property name="array">
+            <list>
+                <value>a</value>
+                <value>b</value>
+                <value>c</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="iniBean" init-method="a" destroy-method="b" class="top.duanshuheng.ioc.entiy.IniBean">
+        <property name="str"><value>abc</value></property>
+    </bean>
+
+    <bean id="buildMethodBean" class="top.duanshuheng.ioc.entiy.BuildMethodBean">
+        <constructor-arg>
+            <value>asd</value>
+        </constructor-arg>
+        <constructor-arg>
+            <value>dsa</value>
+        </constructor-arg>
+    </bean>
+</beans>

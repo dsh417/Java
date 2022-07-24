@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test">
+    <output-path>$PROJECT_DIR$/out/artifacts/test</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-LiHeng" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Spring-5.2.3.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
