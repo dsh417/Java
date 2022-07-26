@@ -8,7 +8,7 @@
 
     <servlet>
         <servlet-name>ShuHengmvc</servlet-name>
-        <servlet-class>top.duanshuheng.ioc.GPDispatcherServlet</servlet-class>
+        <servlet-class>top.duanshuheng.ioc.GPDispatcherServlet_v3</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>application.properties</param-value>
