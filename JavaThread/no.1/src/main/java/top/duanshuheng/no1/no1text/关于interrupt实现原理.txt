@@ -1,0 +1,11 @@
+interrupt传递一个boolean给线程，由线程决定何时中断自己。
+
+线程内通过isInterrupt方法来判断是否获得中断信号，这个方法的底层原理是，调用了native（）方法，也就是这个说不是java而是c++实现的，实际上是由jvm实现的。
+在hotspot源码的Thread.cpp中，调用了os:interrupt方法（ps:由于jvm是跨平台的，有很多个os_*.cpp文件，*是系统名，如os_linux.cpp/os_windows.cpp）
+这个方法做了两个事
+    1，set_interrupt(true) 设置中断表示为true
+    2，调用unpark()方法唤醒线程
+        这个中断标识 _interrupt是使用volatile修饰的，保证可见性
+
+所以最后，当Thread A调用interrupt()方法时，先调用native()方法修改jvm里的interrupt变量值。然后Thread B通过isInterrupt方法获取这个值，从而判断状态。
+这里使用了volatile保证可见性。
