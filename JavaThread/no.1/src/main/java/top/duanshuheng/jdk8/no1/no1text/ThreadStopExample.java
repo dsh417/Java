@@ -1,4 +1,4 @@
-package top.duanshuheng.no1.no1text;
+package top.duanshuheng.jdk8.no1.no1text;
 
 public class ThreadStopExample extends Thread{
     @Override

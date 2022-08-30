@@ -1,0 +1,5 @@
+i++
+
+getfield：把变量i从内存加载到cpu寄存器中
+iadd：在寄存器中执行+1操作
+putfield：把结果保存到内存

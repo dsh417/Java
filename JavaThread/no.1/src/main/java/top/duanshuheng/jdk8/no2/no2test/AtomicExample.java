@@ -1,11 +1,14 @@
-package top.duanshuheng.no2.no2test;
+package top.duanshuheng.jdk8.no2.no2test;
 
-public class AtomicExample {
+public class
+AtomicExample {
     volatile int i=0;
-    public void add(){
+//    public void add(){
+//        i++;
+//    }
+    public synchronized void add(){
         i++;
     }
-
     public static void main(String[] args) {
         try {
             AtomicExample atomicExample=new AtomicExample();
@@ -13,11 +16,9 @@ public class AtomicExample {
 
             for (int k = 0; k < 2; k++) {
                 threads[k]=new Thread(
-                        ()->{
-                            for (int w = 0; w < 10000; w++) {
+                        ()->{for (int w = 0; w < 10000; w++) {
                                 atomicExample.add();
-                            }
-                        }
+                            }}
                 );
                 threads[k].start();
             }

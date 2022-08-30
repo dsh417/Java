@@ -1,0 +1,10 @@
+为了解决synchronized的阻塞（用户态->内核态）
+
+通过自旋来解决短时间内可能会获得锁的情况
+AtomicInteger通过do while不断对value进行累加，累加成功便返回
+
+jvm的synchronized通过for循环，在循环里通过Atomic::cmpxhg_ptr进行CAS抢占锁资源
+
+
+问题： 如果多个线程调用CAS，并且多个线程都去执行预期值与实际值的判断，仍然存在原子性问题
+回答： 要来到unsafe.cpp（跨平台原因，这里没有实现，不同的操作系统是用不同.hpp文件实现的）
