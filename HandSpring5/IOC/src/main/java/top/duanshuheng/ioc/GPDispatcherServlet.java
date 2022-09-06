@@ -15,7 +15,8 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.util.*;
 
-import static javax.xml.bind.JAXBContext.newInstance;
+import static javax.xml.xpath.XPathFactory.newInstance;
+
 
 //最初版本的手写ioc
 //所有核心业务逻辑全部卸载init()方法中
