@@ -1,8 +1,0 @@
-BasicObjectLock
-下文称为Lock Record
-
-线程私有的数据结构
-    BasicLock：有一个字段markOop，保存指向lock锁对象的对象头数据（即访问代码块的线程）
-    oop：      指向lock锁对象的指针
-
-每个线程都有一个Lock Record列表，每一个Lock Record都会关联到锁对象的lock的Mark Word
