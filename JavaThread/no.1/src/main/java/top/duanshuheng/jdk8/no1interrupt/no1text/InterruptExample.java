@@ -1,4 +1,4 @@
-package top.duanshuheng.jdk8.no1.no1text;
+package top.duanshuheng.jdk8.no1interrupt.no1text;
 
 import java.util.concurrent.TimeUnit;
 

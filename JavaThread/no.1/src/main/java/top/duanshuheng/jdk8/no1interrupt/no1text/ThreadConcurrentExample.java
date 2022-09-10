@@ -1,4 +1,4 @@
-package top.duanshuheng.jdk8.no1.no1text;
+package top.duanshuheng.jdk8.no1interrupt.no1text;
 
 public class ThreadConcurrentExample implements Runnable{
     private static final Long num=100000000L;

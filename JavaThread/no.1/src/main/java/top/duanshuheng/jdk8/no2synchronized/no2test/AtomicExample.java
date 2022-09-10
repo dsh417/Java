@@ -1,4 +1,4 @@
-package top.duanshuheng.jdk8.no2.no2test;
+package top.duanshuheng.jdk8.no2synchronized.no2test;
 
 public class
 AtomicExample {

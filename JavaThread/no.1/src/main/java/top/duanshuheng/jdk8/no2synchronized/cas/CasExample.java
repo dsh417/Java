@@ -1,6 +1,4 @@
-package top.duanshuheng.jdk8.no2.cas;
-
-import sun.misc.Unsafe;
+package top.duanshuheng.jdk8.no2synchronized.cas;
 
 public class CasExample {
     public volatile int i;

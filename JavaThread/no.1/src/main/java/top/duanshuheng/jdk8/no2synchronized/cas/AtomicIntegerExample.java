@@ -1,4 +1,4 @@
-package top.duanshuheng.jdk8.no2.cas;
+package top.duanshuheng.jdk8.no2synchronized.cas;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

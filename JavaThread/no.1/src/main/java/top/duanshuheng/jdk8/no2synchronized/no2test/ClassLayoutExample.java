@@ -1,4 +1,4 @@
-package top.duanshuheng.jdk8.no2.no2test;
+package top.duanshuheng.jdk8.no2synchronized.no2test;
 
 import org.openjdk.jol.info.ClassLayout;
 
