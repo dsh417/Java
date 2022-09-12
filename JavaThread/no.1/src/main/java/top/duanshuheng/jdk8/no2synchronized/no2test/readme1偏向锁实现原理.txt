@@ -3,7 +3,7 @@ BasicObjectLock
 
 线程私有的数据结构
     两个属性
-    BasicLock：有一个字段markOop，保存指向lock锁对象的[对象头]数据（即访问代码块的线程）
+    BasicLock：有一个字段markOop，保存指向lock锁对象的[对象头]数据
     oop：      指向lock锁对象的指针
 
 每个线程都有一个Lock Record列表，每一个Lock Record都会关联到锁对象的lock的Mark Word
@@ -18,7 +18,7 @@ BasicObjectLock
             不可偏向：
                 同样通过轻量锁来抢占锁
         如果当前对象锁lock偏向其他线程、匿名偏向状态：
-            构建个匿名的Mark Word（锁的状态），通过CAS方法，将对象锁的Mark Word修改为偏向自己的线程。
+            构建个匿名的Mark Word，通过CAS方法，将对象锁的Mark Word修改为偏向自己的线程。
             （如果此时锁对象偏向了其他线程，CAS一定会失败，失败则表明存在锁竞争，偏向锁需要撤销）
 
 原理（存在锁竞争）：

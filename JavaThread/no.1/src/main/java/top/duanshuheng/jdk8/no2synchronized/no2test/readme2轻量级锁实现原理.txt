@@ -5,7 +5,7 @@
     线程进入synchronized(lock)代码块后，jvm分配一个BasicObjectLock对象：
         (在BasicLock中有一个markOop _displaced_header，这个属性用来存储lock锁对象的原始Mark Word)
     将锁对象的lock的Mark Word复制到BasicObjectLock的oop下
-    构建一个无锁的Mark Word（其实就是lock的Mark Word，区别是状态无锁）储存到BasicLock的 _displaced_header字段。
+    构建一个无锁的Mark Word（其实就是lock的Mark Word，区别是状态无锁）储存到BasicLock的MarkOop _displaced_header字段。
     通过CAS将lock锁对象的Mark Word替换为这个BasicObjectLock锁对象的引用：
         替换成功：
             获得访问资格，轻量级锁抢占成功。
