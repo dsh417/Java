@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="someService" class="top.duanshuheng.aop.a2.ISomeServiceImpl"></bean>
+    <bean id="otherService" class="top.duanshuheng.aop.a2.ISomeOtherImpl"></bean>
+
+    <bean id="logAdvice" class="top.duanshuheng.aop.a2.LogAdvice"></bean>
+
+    <bean id="myPointcut" class="top.duanshuheng.aop.a2.MyPointcut"></bean>
+
+    <bean id="logAdvisor" class="top.duanshuheng.aop.a2.LogAdvisor">
+        <property name="advice" ref="logAdvice"></property>
+        <property name="pointcut" ref="myPointcut"></property>
+    </bean>
+
+    <bean id="someServiceImpl" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="someService"></property>
+        <property name="proxyInterfaces" value="top.duanshuheng.aop.a2.ISomeService"></property>
+        <property name="interceptorNames">
+            <list>
+                <value>logAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="otherServiceImpl" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="otherService"></property>
+        <property name="proxyInterfaces" value="top.duanshuheng.aop.a2.IOtherService"></property>
+        <property name="interceptorNames">
+            <list>
+                <value>logAdvisor</value>
+            </list>
+        </property>
+    </bean>
+</beans>

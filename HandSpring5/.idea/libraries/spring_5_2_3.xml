@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="spring-5.2.3">
+    <CLASSES>
+      <root url="file:///Library/Java/pack/spring-5.2.3.RELEASE" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file:///Library/Java/pack/spring-5.2.3.RELEASE" recursive="false" />
+  </library>
+</component>

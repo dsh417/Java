@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring 应用程序上下文" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext3.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext4.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext5.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext6.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext7.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext8.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext9.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext10.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext11.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext12.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContext17.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContextAop1.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContextAop2.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContextAop3.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContextAop4.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/applicationContextAop5.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
