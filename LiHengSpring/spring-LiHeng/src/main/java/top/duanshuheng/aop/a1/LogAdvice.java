@@ -11,4 +11,5 @@ public class LogAdvice implements MethodBeforeAdvice {
         System.out.println(method.getName()+"new :"+new Date());
 
     }
+
 }

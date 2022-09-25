@@ -1,0 +1,15 @@
+非侵入型框架
+    特点
+        不需要实现任何接口
+        完全基于xml配置
+        切点表达式：AspectJ来切
+        xml引入了新的命名空间
+
+    Advice
+        before
+        after after-returning after-throwing
+        around
+
+    切点表达式
+        within：匹配类中所有方法
+            within(全类名)

@@ -13,7 +13,7 @@ public class test {
 
 //        BeanFactory bf = new XmlBeanFactory(resource);
 
-        ApplicationContext ac=new ClassPathXmlApplicationContext(new String[]{ "applicationContext.xml"});
+        ApplicationContext ac=new ClassPathXmlApplicationContext(new String[]{"applicationContext.xml"});
 
         UserService userService= (UserService) ac.getBean("userService");
 

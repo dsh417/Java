@@ -4,8 +4,6 @@ import com.alibaba.fastjson.JSON;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import top.duanshuheng.ioc.entiy2.ISomeBean;
-import top.duanshuheng.ioc.entiy2.SomeBean;
-import top.duanshuheng.ioc.entiy2.SomeBeanFactory;
 
 import java.util.Map;
 

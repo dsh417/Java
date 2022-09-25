@@ -1,13 +1,10 @@
 package top.duanshuheng.ioc.Action3;
 
-import com.alibaba.fastjson.JSON;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import top.duanshuheng.ioc.entiy2.ISomeBean;
 
-import java.util.Calendar;
 import java.util.Date;
-import java.util.Map;
 
 public class SomeBeanText {
     public static void main(String[] args) {

@@ -3,7 +3,6 @@ package top.duanshuheng.ioc.Action;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import top.duanshuheng.ioc.entiy2.ISomeBean;
-import top.duanshuheng.ioc.entiy3.SomeBeanFactory;
 
 public class ImplFactoryText {
     public static void main(String[] args) {

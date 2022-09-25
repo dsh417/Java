@@ -13,7 +13,7 @@
 
     <bean id="cacheAdvice" class="top.duanshuheng.aop.a1.methodCacheAdvice"></bean>
 
-    <bean id="someService" class="org.springframework.aop.framework.ProxyFactoryBean">
+    <bean id="someService?" class="org.springframework.aop.framework.ProxyFactoryBean">
         <property name="target" ref="SomeService"></property>
         <property name="proxyInterfaces" value="top.duanshuheng.aop.a1.SomeService"></property>
         <property name="interceptorNames">

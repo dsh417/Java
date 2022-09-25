@@ -2,7 +2,6 @@ package top.duanshuheng.aop.a1;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import top.duanshuheng.ioc.entiy2.ISomeBean;
 
 public class main {
 
