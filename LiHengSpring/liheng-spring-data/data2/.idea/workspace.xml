@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cfe5d9e5-8949-420a-b258-c560efc236a9" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Gradle/.idea/Gradle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/liheng-spring-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../liheng-spring2/.idea/liheng-spring2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/niuke/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/niuke/src/main/java/nk0928/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/niuke/src/main/java/nk0928/q2/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/src/bd0927/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/src/bd09272/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/src/text/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SuanFa/src/tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../WangBo/.idea/WangBo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../jd/.idea/jd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../more/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../more/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../more/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../more/.idea/more.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../more/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SuanFa/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SuanFa/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/SuanFaLanQiaoBei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SuanFa/SuanFaLanQiaoBei.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/BFS$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/BFS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/MiGong$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/MiGong.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Test016$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Test016.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Test017.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/Text018.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test002$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test002.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test002Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test003.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test003Answer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test005.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test006.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test007.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test008.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test009.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test010$Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test010.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test012.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/out/production/SuanFaLanQiaoBei/test013.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SuanFa/src/tree/RBtree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SuanFa/src/tree/RBtree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mymvc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../mymvc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../question/question" beforeDir="false" afterPath="$PROJECT_DIR$/../../../question/question" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2F6s7q9JAlT5quIShf3qNSTwkp7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/duanshuheng/Java/LiHengSpring/liheng-spring-data/data2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "fe7018adf0de5f836ac17e9bbc5616e1"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/dao2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Test">
+    <configuration name="FileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.FileText" />
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
+      <module name="data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Test" />
+        <item itemvalue="应用程序.FileText" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cfe5d9e5-8949-420a-b258-c560efc236a9" name="变更" comment="" />
+      <created>1663823703471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663823703471</updated>
+      <workItem from="1663823704578" duration="157000" />
+      <workItem from="1663823868783" duration="8858000" />
+      <workItem from="1663836413371" duration="659000" />
+      <workItem from="1663837082505" duration="2028000" />
+      <workItem from="1663857615801" duration="4806000" />
+      <workItem from="1663911172662" duration="630000" />
+      <workItem from="1664348479294" duration="196000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

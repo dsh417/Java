@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!---->
+    <bean id="someServiceTarget" class="top.duanshuheng.aop.a5proxy.SomeServiceImpl"></bean>
+
+    <bean id="myIntroducationAdvice" class="top.duanshuheng.aop.a5proxy.MyIntroducationAdvice"></bean>
+
+    <bean id="myIntroductionAdvisor" class="org.springframework.aop.support.DefaultIntroductionAdvisor">
+        <constructor-arg>
+<!--            引入的类型-->
+            <value>top.duanshuheng.aop.a5proxy.IOtherService</value>
+        </constructor-arg>
+        <constructor-arg>
+<!--            刚刚写的advice-->
+            <ref bean="myIntroducationAdvice"></ref>
+        </constructor-arg>
+    </bean>
+
+    <bean id="someService" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="someServiceTarget"></property>
+        <property name="proxyInterfaces" value="top.duanshuheng.aop.a5proxy.ISomeService"></property>
+        <property name="interceptorNames">
+            <list>
+                <value>myIntroductionAdvisor</value>
+            </list>
+        </property>
+    </bean>
+
+
+</beans>

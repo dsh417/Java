@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="someService" class="aop2.SomeServiceImpl"></bean>
+    <bean id="otherService" class="aop2.OtherServiceImpl"></bean>
+
+    <bean id="logAdvice" class="aop2.LogAdvice"></bean>
+
+    <aop:config>
+        <aop:pointcut id="p1" expression="within(aop2.SomeServiceImpl)"/>
+        <aop:pointcut id="p2" expression="within(aop2.OtherServiceImpl)"/>
+
+        <aop:aspect ref="logAdvice">
+            <aop:before method="log" pointcut-ref="p1"></aop:before>
+        </aop:aspect>
+    </aop:config>
+</beans>

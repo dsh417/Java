@@ -2,7 +2,20 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LiHengSpring/liheng-spring-data/data" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LiHengSpring/liheng-spring2/aop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/demotext/demotext" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jd/text" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jdk19text/thread" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mymvc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/question/question" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext2yml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext3properties" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext4thymeleaf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext5mvc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext6hibernate-validator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext7webflux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/shuhengboot17/flyv17/boottext8webfluxbymongodb" vcs="Git" />
   </component>
 </project>
