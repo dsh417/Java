@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="someService2" class="top.duanshuheng.aop2.aop6.SomeServiceImpl"></bean>
+    <bean id="otherService2" class="top.duanshuheng.aop2.aop6.OtherServiceImpl"></bean>
+
+    <bean id="logAdvice2" class="top.duanshuheng.aop2.aop6.LogAdvice"></bean>
+
+    <aop:config>
+        <aop:pointcut id="pc1" expression="within(top.duanshuheng.aop2.aop6.SomeServiceImpl)"/>
+        <aop:pointcut id="pc2" expression="within(top.duanshuheng.aop2.aop6.OtherServiceImpl)"/>
+
+        <aop:aspect ref="logAdvice2">
+            <aop:before method="log" pointcut-ref="pc1"></aop:before>
+
+        </aop:aspect>
+    </aop:config>
+
+</beans>
