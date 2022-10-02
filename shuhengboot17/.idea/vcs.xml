@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext2yml" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext3properties" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext4thymeleaf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext5mvc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext6hibernate-validator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext7webflux" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/flyv17/boottext8webfluxbymongodb" vcs="Git" />
+  </component>
+</project>
